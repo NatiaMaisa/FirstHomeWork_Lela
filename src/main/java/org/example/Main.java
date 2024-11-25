@@ -21,14 +21,14 @@ public class Main {
         checkNumber(0);
         checkNumber(-1);
 
-//        hasTeen(1, 2, 3);
-//        hasTeen(13, 2, 3);
-//        hasTeen(1, 2, 19);
-//        hasTeen(12, 2, 30);
-//        hasTeen(14, 17, 18);
+        hasTeen(1, 2, 3);
+        hasTeen(13, 2, 3);
+        hasTeen(1, 2, 19);
+        hasTeen(12, 2, 30);
+        hasTeen(14, 17, 18);
 
-        hasTeen1(1, 62, 3);
-        hasTeen1(13, 92, 93);
+        hasTeen1(1, 2, 3);
+        hasTeen1(13, 2, 3);
         hasTeen1(1, 2, 19);
         hasTeen1(12, 2, 30);
         hasTeen1(14, 17, 18);
