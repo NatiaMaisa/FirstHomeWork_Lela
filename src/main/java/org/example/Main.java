@@ -21,14 +21,14 @@ public class Main {
         checkNumber(0);
         checkNumber(-1);
 
-        hasTeen(1, 2, 3);
-        hasTeen(13, 2, 3);
-        hasTeen(1, 2, 19);
-        hasTeen(12, 2, 30);
-        hasTeen(14, 17, 18);
+//        hasTeen(1, 2, 3);
+//        hasTeen(13, 2, 3);
+//        hasTeen(1, 2, 19);
+//        hasTeen(12, 2, 30);
+//        hasTeen(14, 17, 18);
 
-        hasTeen1(1, 2, 3);
-        hasTeen1(13, 2, 3);
+        hasTeen1(1, 62, 3);
+        hasTeen1(13, 92, 93);
         hasTeen1(1, 2, 19);
         hasTeen1(12, 2, 30);
         hasTeen1(14, 17, 18);
@@ -64,7 +64,7 @@ public class Main {
         }
     }
 
-     static void hasTeen1(int x, int y, int z) {
+    static void hasTeen1(int x, int y, int z) {
         if ((x >= 13 && x <= 19) || (y >= 13 && y <= 19) || (z >= 13 && z <= 19)) {
             System.out.println("True");
         } else {
@@ -72,6 +72,7 @@ public class Main {
         }
     }
 }
+
 
 
 
